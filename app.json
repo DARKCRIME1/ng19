@@ -541,17 +541,14 @@
         }
 
     },
+    
+    
 
-  "addons": [{
+  [[build.buildpacks]]
+uri = "heroku/nodejs"
 
-      "plan": "heroku-postgresql"
+[[build.buildpacks]]
+uri = "heroku/nodejs-yarn"
 
-    }],
-
-    "buildpacks": [{
-
-      "url": "heroku-community/apt"
-
-      }]
 
   }
