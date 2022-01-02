@@ -543,12 +543,12 @@
     },
     
     
-
+{
   [[build.buildpacks]]
 uri = "heroku/nodejs"
 
 [[build.buildpacks]]
 uri = "heroku/nodejs-yarn"
 
-
+}
   }
